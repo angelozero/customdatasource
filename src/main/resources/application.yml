@@ -1,0 +1,29 @@
+spring:
+  datasource:
+    reader:
+      username: master
+      password: terra
+      driver-class-name: org.postgresql.Driver
+      jdbc-url: jdbc:postgresql://localhost:5432/datasource_read?currentSchema=public
+      pattern: findAll*
+    writer:
+      username: master
+      password: terra
+      driver-class-name: org.postgresql.Driver
+      jdbc-url: jdbc:postgresql://localhost:5432/datasource_write?currentSchema=public
+      pattern: save*
+
+    jpa:
+      open-in-view: true
+      hibernate:
+        ddl-auto: create
+        naming:
+          physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
+      show-sql: false
+      properties:
+        hibernate:
+#          default_schema: public
+          format_sql: true
+          integration:
+            envers:
+              enabled: false
