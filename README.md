@@ -1,6 +1,6 @@
 # Dynamic Data Source 
 
-### A simple solution to handle with dynamic data sources and multiples database connections
+### A simple solution to handle dynamic data sources and multiple database connections
 
 ---
 - *What was the issue?*
