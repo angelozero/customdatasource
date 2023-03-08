@@ -18,10 +18,14 @@
 ---
 
 - You can see all the configuration in the 
-    - [ReaderDataSourceConfig.class](https://github.com/angelozero/customdatasource/blob/main/src/main/java/com/angelozero/customdatasource/config/ReaderDataSourceConfig.java)
-    - [WriterDataSourceConfig.class](https://github.com/angelozero/customdatasource/blob/main/src/main/java/com/angelozero/customdatasource/config/WriterDataSourceConfig.java)
+    - [ReaderDataSourceConfig](https://github.com/angelozero/customdatasource/blob/main/src/main/java/com/angelozero/customdatasource/config/ReaderDataSourceConfig.java)
+    - [WriterDataSourceConfig](https://github.com/angelozero/customdatasource/blob/main/src/main/java/com/angelozero/customdatasource/config/WriterDataSourceConfig.java)
 
 ---
 
 - ### Diagram
 ![fluxogram](https://i.postimg.cc/KztMyWhp/Whats-App-Image-2023-03-08-at-19-54-23.jpg)
+
+--- 
+
+Font: [Stackoverflow - Dynamic Datasource using SpringBoot](https://stackoverflow.com/questions/57224715/dynamic-datasource-using-springboot) ( *look for the Milton BO answer* )
