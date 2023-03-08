@@ -1,4 +1,4 @@
-package com.angelozero.customdatasource.entity;
+package com.angelozero.dynamicdatasource.entity;
 
 import lombok.*;
 

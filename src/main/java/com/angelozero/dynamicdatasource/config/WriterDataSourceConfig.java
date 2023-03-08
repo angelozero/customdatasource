@@ -1,4 +1,4 @@
-package com.angelozero.customdatasource.config;
+package com.angelozero.dynamicdatasource.config;
 
 
 import org.springframework.beans.factory.annotation.Qualifier;
@@ -21,7 +21,7 @@ import javax.sql.DataSource;
 @EnableJpaRepositories(
         entityManagerFactoryRef = "writerEntityManagerFactory",
         transactionManagerRef = "writerTransactionManager",
-        basePackages = {"com.angelozero.customdatasource.repository.writer"}
+        basePackages = {"com.angelozero.dynamicdatasource.repository.writer"}
 )
 public class WriterDataSourceConfig {
 
@@ -36,7 +36,7 @@ public class WriterDataSourceConfig {
                                                                        @Qualifier("writerDataSource") DataSource dataSource) {
         return builder
                 .dataSource(dataSource)
-                .packages("com.angelozero.customdatasource")
+                .packages("com.angelozero.dynamicdatasource")
                 .persistenceUnit("second")
                 .build();
     }

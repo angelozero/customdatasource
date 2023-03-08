@@ -1,7 +1,7 @@
-package com.angelozero.customdatasource.repository.writer;
+package com.angelozero.dynamicdatasource.repository.writer;
 
 
-import com.angelozero.customdatasource.entity.UserEntity;
+import com.angelozero.dynamicdatasource.entity.UserEntity;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

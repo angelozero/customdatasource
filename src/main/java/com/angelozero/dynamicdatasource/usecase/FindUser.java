@@ -1,8 +1,8 @@
-package com.angelozero.customdatasource.usecase;
+package com.angelozero.dynamicdatasource.usecase;
 
 
-import com.angelozero.customdatasource.entity.UserEntity;
-import com.angelozero.customdatasource.repository.reader.RepositoryReaderBase;
+import com.angelozero.dynamicdatasource.entity.UserEntity;
+import com.angelozero.dynamicdatasource.repository.reader.RepositoryReaderBase;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 

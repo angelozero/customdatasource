@@ -1,9 +1,9 @@
-package com.angelozero.customdatasource.controller;
+package com.angelozero.dynamicdatasource.controller;
 
 
-import com.angelozero.customdatasource.entity.UserEntity;
-import com.angelozero.customdatasource.usecase.FindUser;
-import com.angelozero.customdatasource.usecase.SaveUser;
+import com.angelozero.dynamicdatasource.entity.UserEntity;
+import com.angelozero.dynamicdatasource.usecase.FindUser;
+import com.angelozero.dynamicdatasource.usecase.SaveUser;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
